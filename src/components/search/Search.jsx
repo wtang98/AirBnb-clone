@@ -28,7 +28,7 @@ const Search = () => {
             <DateRangePicker ranges={[selectionRange]} onChange={handleSelect}/>
             <h2>Number of guests <PeopleIcon/></h2>
             <input type="number" min={0} defaultValue={2}/>
-            <Button onClick ={()=> history.push('./search')}>Search Airbnb</Button>
+            <Button onClick={()=>history.push('/Airbnb-Clone/search')}>Search Airbnb</Button>
         </div>
     )
 }

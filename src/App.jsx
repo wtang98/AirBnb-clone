@@ -14,13 +14,10 @@ const App = () => {
                 <Header/>
 
                 <Switch>
-                    <Route path="/search">
-                        <SearchPage/>
-                    </Route>
 
-                    <Route path="/">
-                        <Home/>
-                    </Route>
+                    <Route path="/Airbnb-Clone/search" exact component={SearchPage} />
+                    <Route path="/Airbnb-Clone" exact component={Home}/>
+
                 </Switch>
 
                 <Footer/>
